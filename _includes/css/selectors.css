@@ -1,9 +1,9 @@
-/* Bad example */
+/* 悪い例 */
 span { ... }
 .page-container #stream .stream-item .tweet .tweet-header .username { ... }
 .avatar { ... }
 
-/* Good example */
+/* 良い例 */
 .avatar { ... }
 .tweet-header .username { ... }
 .tweet .avatar { ... }

@@ -1,9 +1,9 @@
-/* Bad example */
+/* 悪い例 */
 .t { ... }
 .red { ... }
 .header { ... }
 
-/* Good example */
+/* 良い例 */
 .tweet { ... }
 .important { ... }
 .tweet-header { ... }

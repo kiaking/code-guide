@@ -1,17 +1,17 @@
 /*
- * Component section heading
+ * コンポーネントのセクション見出し
  */
 
 .element { ... }
 
 
 /*
- * Component section heading
+ * コンポーネントのセクション見出し
  *
- * Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
+ * 見出しに説明文を追加する必要がある場合もある。必要ならここに書こう。
  */
 
 .element { ... }
 
-/* Contextual sub-component or modifer */
+/* 分かりやすいサブコンポーネントやモディファイアー */
 .element-heading { ... }

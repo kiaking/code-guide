@@ -1,6 +1,7 @@
-name:          Code Guide by @mdo
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+name:          コーディングガイド by @mdo
+description:   柔軟で、愛おしく、持続性のあるHTMLとCSSの標準。
+
+url:           http://kia-king.com/code-guide
 
 markdown:      rdiscount
 permalink:     pretty

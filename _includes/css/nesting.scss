@@ -1,8 +1,8 @@
-// Without nesting
+// ネスト無し
 .table > thead > tr > th { … }
 .table > thead > tr > td { … }
 
-// With nesting
+// ネスト有り
 .table > thead > tr {
   > th { … }
   > td { … }

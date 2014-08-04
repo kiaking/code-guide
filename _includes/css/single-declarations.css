@@ -1,9 +1,9 @@
-/* Single declarations on one line */
+/* 1つの宣言を1行で */
 .span1 { width: 60px; }
 .span2 { width: 140px; }
 .span3 { width: 220px; }
 
-/* Multiple declarations, one per line */
+/* 複数の宣言は複数行で */
 .sprite {
   display: inline-block;
   width: 16px;
