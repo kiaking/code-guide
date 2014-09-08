@@ -10,13 +10,13 @@ layout: default
     <ul>
       <li><a href="#html-syntax">HTMLシンタックス</a></li>
       <li><a href="#html-doctype">HTML5 doctype</a></li>
-      <li><a href="#html-lang">lang要素</a></li>
+      <li><a href="#html-lang">lang属性</a></li>
       <li><a href="#html-encoding">文字エンコーディング</a></li>
       <li><a href="#html-ie-compatibility-mode">Internet Explorerの互換モード</a></li>
       <li><a href="#html-style-script">CSSとJavaScriptのインクルード</a></li>
       <li><a href="#html-practicality">潔癖さより実用性</a></li>
-      <li><a href="#html-attribute-order">要素の順序</a></li>
-      <li><a href="#html-boolean-attributes">ブーリアン型の要素</a></li>
+      <li><a href="#html-attribute-order">属性の順序</a></li>
+      <li><a href="#html-boolean-attributes">ブーリアン型の属性値</a></li>
       <li><a href="#html-reducing-markup">マークアップの削減</a></li>
       <li><a href="#html-javascript">JavaScriptによるマークアップ</a></li>
     </ul>
@@ -44,7 +44,7 @@ layout: default
 <div class="section" id="golden-rule">
   <div class="col">
     <h2>黄金のルール</h2>
-    <p>どんな時も、合意されたガイドラインに従おう。それがこのガイドでも、あなた独自のものでも関係ない。もし間違いを見つけたら、それが大きなものでも小さなものでも指摘しよう。このガイドに対しての追記や協力には<a href="https://github.com/mdo/code-guide/issues/new">GitHubでイシューを開いて連絡してください</a>。</p>
+    <p>どんな時も、合意されたガイドラインに従おう。それがこのガイドでも、あなた独自のものでも関係ない。もし間違いを見つけたら、それが大きなものでも小さなものでも指摘しよう。このガイドに対して、追記や協力をして頂ける方は<a href="https://github.com/kiaking/code-guide/issues/new">GitHubでイシューを開いて連絡してください</a>。</p>
   </div>
   <div class="col">
     <blockquote>
@@ -65,7 +65,7 @@ layout: default
     <ul>
       <li>インデントには半角スペース2個分のソフトタブを使用すること。これが全ての環境で全く同じように見せる唯一の方法。</li>
       <li>ネストされた要素はかならず1段階だけインデント(半角スペース2個)すること。</li>
-      <li>いつもダブルクォートを使うこと。要素に対してシングルクォートを使わないこと。</li>
+      <li>いつもダブルクォートを使うこと。属性値に対してシングルクォートを使わないこと。</li>
       <li>閉じタグの無い要素に対して、末尾のスラッシュは省く事。<a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5仕様</a>に省略して良いと書いてある。</li>
       <li>省略できる閉じタグを省略しないこと。(例えば<code>&lt;/li&gt;</code>とか<code>&lt;/body&gt;</code>)。</li>
     </ul>
@@ -90,9 +90,9 @@ layout: default
     <h3>lang要素</h3>
     <p>HTML5仕様より</p>
     <blockquote>
-      <p>ウェブサイトの作成者は、サイトにふさわしいlang要素をhtml要素に対して指定することを推奨する。これはスクリーンリーダがどんな発音や方言を使ってサイトを読み上げるか、翻訳ツールがどのようなルールで翻訳するか理解するのを助けてくれる。</p>
+      <p>ウェブサイトの作成者は、サイトにふさわしいlang属性をhtml要素に対して指定することを推奨する。これはスクリーンリーダがどんな発音や方言を使ってサイトを読み上げるか、翻訳ツールがどのようなルールで翻訳するか理解するのを助けてくれる。</p>
     </blockquote>
-    <p>さらに詳細は<a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">HTML5仕様</a>の<code>lang</code>要素を参照。</p>
+    <p>さらに詳細は<a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">HTML5仕様</a>の<code>lang</code>属性を参照。</p>
     <p>言語コードの一覧は<a href="http://reference.sitepoint.com/html/lang-codes">こちらを参照</a>。</p>
   </div>
   <div class="col">
@@ -146,7 +146,7 @@ layout: default
 
 <div class="section" id="html-attribute-order">
   <div class="col">
-    <h3>要素の順序</h3>
+    <h3>属性の順序</h3>
     <p>HTMLの要素は可読性の向上のために、適切な順序で記述しよう。</p>
     <ul>
       <li><code>class</code></li>
@@ -165,15 +165,15 @@ layout: default
 
 <div class="section" id="html-boolean-attributes">
   <div class="col">
-    <h3>ブーリアン型の要素</h3>
-    <p>ブーリアン型の要素は値を必要としない要素だ。XHTMLでは値を要求されるが、HTML5にそのような仕様はない。</p>
-    <p>詳細は<a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWGのブーリアン型要素のセクションを参照</a>:</p>
+    <h3>ブーリアン型の属性</h3>
+    <p>ブーリアン型の属性は値を必要としない。XHTMLでは値を要求されるが、HTML5にそのような仕様はない。</p>
+    <p>詳細は<a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWGのブーリアン型属性のセクションを参照</a>:</p>
     <blockquote>
-      <p>ブーリアン型の要素が存在する場合、それは真として評価される。もし存在しない場合は負として評価される。</p>
+      <p>ブーリアン型の属性値が存在する場合、それは真として評価される。もし存在しない場合は負として評価される。</p>
     </blockquote>
-    <p>もしも要素に対して値を<em>記述しなければならない</em>のなら<strong>（必要ないはずだけど）</strong>下記のWhatWGのガイドラインを参照:</p>
+    <p>もしも属性に対して値を<em>記述しなければならない</em>のなら<strong>（必要ないはずだけど）</strong>下記のWhatWGのガイドラインを参照してみて:</p>
     <blockquote>
-      <p>もしも要素が存在するなら、その値は空の文字列か、要素と同じ名前にして、末尾にスペースを含めないこと。</p>
+      <p>もしも属性値が存在するなら、その値は空の文字列か、属性と同じ名前にして、末尾にスペースを含めないこと。</p>
     </blockquote>
     <p><strong>簡潔に言えば、値を記述しないこと。</strong></p>
   </div>
@@ -198,8 +198,6 @@ layout: default
     <p>JavaScriptのファイルの中にマークアップを記述するのは、可読性を低下させ、検索し辛く、編集し難くする上に、パフォーマンスが劣化する。可能な限り回避しよう。</p>
   </div>
 </div>
-
-
 
 <div class="heading" id="css">
   <h2>CSS</h2>
