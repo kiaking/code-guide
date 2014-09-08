@@ -5,4 +5,4 @@ url:           http://kia-king.com/code-guide
 
 markdown:      rdiscount
 permalink:     pretty
-pygments:      true
+highlighter:   true
