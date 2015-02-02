@@ -1,8 +1,10 @@
 # Code Guide
 
-Code Guide is a project for documenting standards for developing flexible, durable, and sustainable HTML and CSS. It comes from years of experience writing code on projects of all sizes. It's not the end-all be-all, but it's a start.
+Code Guideは柔軟で、恒久的であり、持続性のあるHTMLとCSSを作成するためのドキュメンテーション。これは、何年もの大小様々なプロジェクトに関わった経験をもとに作られている。このガイドは完璧なものでも、完全なものでもないけれど、スタートにはなる。
 
-**[Start reading ☞](http://mdo.github.io/code-guide)**
+なお、このガイドは[@mdoにより英語でかかれたガイド](https://github.com/mdo/code-guide)を日本語に翻訳したものです。
+
+**[さっそく読んでみよう ☞](http://kia-king.com/code-guide)**
 
 ---
 
@@ -12,11 +14,14 @@ Released under MIT by, and copyright 2014, @mdo.
 
 ### Thanks
 
-Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
+このガイドは下記のガイドに強くインスパイやされています。
+
+- [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
+- [GitHub Styleguide](http://github.com/styleguide)
 
 ### Translations
 
-Translations are maintained by their creators and may not always be up to date with the original here.
+このガイドの翻訳は翻訳者自身によって作成され、メンテナンスされています。必ずしもオリジナルと同じ状態では無いかもしれません。
 
 - [Chinese](http://zoomzhao.github.io/code-guide/) - Translated by [Zoom Zhao](https://github.com/ZoomZhao)
 - [Chinese](http://codeguide.bootcss.com/) - Translated by [Wang Sai](https://github.com/wangsai)
@@ -32,6 +37,6 @@ Translations are maintained by their creators and may not always be up to date w
 - [Russian](http://instanceofpro.github.io/code-guide/) - Translated by [Eugene Abrosimov](https://github.com/instanceofpro)
 - [Spanish](http://adrianayala.mx/code-guide/es/) - Translated by [Adrian Ayala](http://adrianayala.mx/)
 
-Have a translation you'd like to link to? Open a pull request to add it here. Be sure to keep it alphabetical.
+翻訳記事をここにリンクさせたい？プルリクエストを作って依頼してください。なお、もちろんですが、プルリクエストは[オリジナルのガイド](https://github.com/mdo/code-guide)に向けて出してくださいね。
 
 <3
